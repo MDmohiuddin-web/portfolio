@@ -10,20 +10,20 @@ import { BiLogoNetlify } from "react-icons/bi";
 
 const Skills = () => {
   return (
-    <div className="flex flex-wrap gap-5 justify-between my-10 md:h-[400px]">
+    <div className="flex flex-wrap gap-5 justify-between my-10 md:h-[400px]" >
       {/* texts */}
-      <div className=" md:w-[49%]">
+      <div className=" md:w-[49%]" data-aos="fade-up">
         <h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
           My Expertise
         </h2>
-        <p className="my-5 text-2xl">
+        <p className="my-5 text-2xl font-Playwrite">
           I can work using these technologies. <br /> I have completed many
           projects using them. <br /> I have a good understanding of these
           technologies
         </p>
       </div>
       {/* icons */}
-      <div className="flex flex-wrap gap-8 md:w-[45%] justify-center ">
+      <div className="flex flex-wrap gap-8 md:w-[45%] justify-center " data-aos="fade-up">
         <div
           className="text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="HTML"

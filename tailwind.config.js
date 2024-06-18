@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+         "Playwrite":["Playwrite IS","cursive"],
+        
+         
+      }
+    },
   },
   plugins: [
     require('daisyui'),
