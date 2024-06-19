@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <div className="text-white flex flex-col  md:w-1/2 m-auto md:h-[650px] items-left justify-center">
+    <div className=" flex flex-col  md:w-1/2 m-auto md:h-[650px] items-left justify-center">
       <h1 className="text-4xl  my-3 font-bold text-left  ">
         {`Hello there, I'm`}
       </h1>
@@ -11,7 +11,7 @@ const Hero = () => {
         mohi uddin <span className="text-[#0be890] ">.</span>
       </h2>
       <h2 className="text-3xl text-left font-bold md:my-3 ">
-        {`i'm a `} <br />
+        {`I'm a `} <br />
         <span className="text-[#0be890] ">
           <Typewriter
             words={[
@@ -28,7 +28,7 @@ const Hero = () => {
           />
         </span>
       </h2>
-      <p className="my-3 font-Playwrite">
+      <p className="my-3  font-roboto">
       Certainly! As a MERN Stack Developer, I wield the power of JavaScript to craft captivating digital experiences. My canvas? The web. My palette? HTML, CSS, and React. With each line of code, I breathe life into user interfaces, sculpt seamless interactions, and orchestrate content that dances across screens. Let’s build more than websites; let’s create immersive journeys that leave a lasting impression.
       </p>
       <Link

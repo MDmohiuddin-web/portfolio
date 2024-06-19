@@ -16,7 +16,7 @@ const Skills = () => {
         <h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
           My Expertise
         </h2>
-        <p className="my-5 text-2xl font-Playwrite">
+        <p className="my-5 text-xl ">
           I can work using these technologies. <br /> I have completed many
           projects using them. <br /> I have a good understanding of these
           technologies
@@ -64,8 +64,8 @@ const Skills = () => {
           className="text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Express.js"
         >
-          {" "}
-          <SiExpress />{" "}
+          
+          <SiExpress />
         </div>
         <div
           className="text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "

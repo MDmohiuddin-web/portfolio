@@ -12,7 +12,7 @@ const About = () => {
             <h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
               ABOUT ME
             </h2>
-            <p className="my-5 font-Playwrite">{`Hello, I’m Mohi Uddin, a passionate and experienced Web Developer. With a strong background in HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Express, MongoDB, Firebase, and WordPress, I specialize in crafting high-quality, responsive web pages. My mission is to understand my clients’ needs and guide them through the process of building their dream websites. Let’s collaborate and create something exceptional! `}
+            <p className="my-5  font-roboto">{`Hello, I’m Mohi Uddin, a passionate and experienced Web Developer. With a strong background in HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Express, MongoDB, Firebase, and WordPress, I specialize in crafting high-quality, responsive web pages. My mission is to understand my clients’ needs and guide them through the process of building their dream websites. Let’s collaborate and create something exceptional! `}
             </p>
           </div>
           {/* 2 */}

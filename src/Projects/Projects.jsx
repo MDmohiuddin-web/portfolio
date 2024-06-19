@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="my-10 flex flex-wrap gap-5 justify-between font-Playwrite" >
+    <div className="my-10 flex flex-wrap gap-5 justify-between font-roboto" >
       {
       item.map((project) => (
         <ProjectsCard key={project.id} project={project} />

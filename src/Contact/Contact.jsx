@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div className="flex flex-wrap font-Playwrite " >
+        <div className="flex flex-wrap  " >
            <div data-aos="fade-up" className=" md:w-[49%] flex flex-wrap md:pr-5"><h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
            Contact With Me
             </h2>
@@ -16,10 +16,10 @@ const Contact = () => {
             <br />
             <p>Feni, Chattogram, Bangladesh </p> <br />
             <h2>Contact Email</h2> <br />
-            <a   className="">mohiu5204@gmail.com</a> <br />
+            <a   className="text-[#0be890]" href="mailto:mohiu5204@gmail.com">mohiu5204@gmail.com</a> <br />
 
             <h2>Find Me on Phone/Whatsapp/Telegram</h2> <br />
-            <p>+88 01865540885</p>
+            <a className="text-[#0be890]" href="tel:+8801865540885">+88 01865540885</a>
             </div>
         </div>
     );

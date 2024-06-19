@@ -13,7 +13,7 @@ const Root = () => {
 
   return (
     <div className="capitalize" data-aos="fade-down">
-      <div className="w-[90%] text-white m-auto capitalize font-Playwrite">
+      <div className="w-[90%]  m-auto capitalize font-roboto">
         <Navbar></Navbar>
         <Outlet></Outlet>
       </div>

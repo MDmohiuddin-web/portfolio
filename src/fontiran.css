@@ -96,3 +96,7 @@
     url('../fonts/woff/iransansdn.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
     url('../fonts/ttf/iransansdn.ttf') format('truetype');
 }
+
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+IS:wght@100..400&display=swap') 
+}
