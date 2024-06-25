@@ -10,7 +10,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="footer flex justify-center py-10 items-center text-center ">
+    <footer className="footer  items-center text-center ">
+      <div className="w-4/5 mx-auto flex justify-center py-10">
       <div
         className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
         data-tip="linkedin"
@@ -54,12 +55,13 @@ const Footer = () => {
       
 
       <div
-        className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
+        className="text-4xl pr-12 tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
         data-tip="x"
       >
         <a href="https://x.com/MohiUddin_2000">
           <FaSquareXTwitter />
         </a>
+      </div>
       </div>
       
       {/* <p>Copyright © 2024 - All right reserved</p> */} 
