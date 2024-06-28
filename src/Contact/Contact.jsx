@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <div className="flex flex-wrap  " >
-           <div data-aos="fade-up" className=" md:w-[49%] flex flex-wrap md:pr-5"><h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
+           <div data-aos="fade-up" className=" md:w-[49%] flex flex-wrap md:pr-10"><h2 className="text-4xl md:text-6xl my-3 text-[#0be890]">
            Contact With Me
             </h2>
             <h3>{`Let's work together to build outstanding web experiences!`}</h3>
