@@ -94,7 +94,7 @@ const Navbar = () => {
           href={cv}
           download="MohiUddin-Resume.pdf"
         >
-          my Resume
+          My Resume
         </a>
 
         {/* theme toggle */}
