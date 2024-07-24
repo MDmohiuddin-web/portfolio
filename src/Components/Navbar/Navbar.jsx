@@ -28,9 +28,7 @@ const Navbar = () => {
       <li className=" hover:text-[#0be890]  ">
         <NavLink to="/">Home </NavLink>
       </li>
-      {/* <li className="hover:text-[#0be890]  ">
-        <NavLink to="/hero">hero </NavLink>
-      </li> */}
+      
       <li className="hover:text-[#0be890]  ">
         <NavLink to="/about">About </NavLink>
       </li>
@@ -90,9 +88,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-5">
         <a
-          className="btn btn-outline text-[#0be890]  hover:bg-white hover:text-[#0be890]"
+          className="btn btn-outline text-[#0be890]  hover:bg-white hover:text-[#0be890] "
           href={cv}
-          download="MohiUddin-Resume.pdf"
+          download="MohiUddin-Resume.pdf" 
         >
           My Resume
         </a>

@@ -8,10 +8,7 @@ export default {
     extend: {
       // fontFamily:{
       //    "Playwrite":["Playwrite IS","cursive"],
-         
-      //    "roboto-mono":['Roboto Mono','monospace'],
-        
-         
+       
       // }
     },
   },
