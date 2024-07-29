@@ -75,7 +75,7 @@ const Navbar = () => {
         {/* <a >Mohi</a> */}
         <Link
           to="/"
-          className="btn btn-ghost text-2xl text-[#0be890] font-sans font-bold"
+          className="btn btn-ghost text-2xl text-[#0be890] font-sans font-bold "
         >
           Mohi
         </Link>

@@ -5,14 +5,7 @@ const Projects = () => {
   const [item, setItem] = useState([]);
   const [DataLength, setDataLength] = useState(6);
 
-  // const [Loading,setLoading]=useState(true);
-  // if (Loading) {
-  //   return (
-  //     <div className="h-screen flex justify-center items-center text-4xl">
-  //      <span className="animate-pulse text-xl md:text-6xl text-[#0be890]">Loading ... </span>
-  //     </div>
-  //   );
-  // }
+  
   
 
   useEffect(() => {
