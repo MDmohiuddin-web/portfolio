@@ -5,21 +5,23 @@ const Projects = () => {
   const [item, setItem] = useState([]);
   const [DataLength, setDataLength] = useState(6);
 
-  
-  
-
   useEffect(() => {
     fetch("Projects.json")
       .then((res) => res.json())
       .then((data) => {
         setItem(data);
         // setLoading(false)
-        
       });
   }, []);
 
   return (
     <div>
+      <div className="w-4/5 mx-auto text-center">
+        <h2 className="text-4xl md:text-6xl my-3 text-[#0be890] ">
+          My Projects
+        </h2>
+      </div>
+
       <div className="my-10 flex flex-wrap gap-5 justify-between font-roboto">
         {item.slice(0, DataLength).map((project) => (
           <ProjectsCard key={project.id} project={project} />
@@ -39,7 +41,6 @@ const Projects = () => {
           Show all data
         </button>
       </div>
-      
     </div>
   );
 };

@@ -31,8 +31,8 @@ const Root = () => {
 
   return (
     <div className="capitalize" >
+      <Navbar></Navbar>
       <div className="w-[90%]  m-auto capitalize font-roboto">
-        <Navbar></Navbar>
         <Outlet></Outlet>
       </div>
       <Footer></Footer>

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import cv from "../assets/Mohiuddin-Resume.pdf";
+import cv from "../assets/Mohiuddin_cv.pdf";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 my-5 font-">
+    <div className="navbar bg-base-100 my-5 md:w-[90%]">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,7 @@ const Navbar = () => {
           to="/"
           className="btn btn-ghost text-2xl text-[#0be890] font-Playwrite font-bold "
         >
-          Mohi <span></span>
+          Mohi 
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
