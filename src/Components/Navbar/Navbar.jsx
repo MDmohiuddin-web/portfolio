@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import cv from "../assets/Mohiuddin_cv.pdf";
+import cv from "../assets/Mohiuddin-Resume.pdf";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -75,9 +75,9 @@ const Navbar = () => {
         {/* <a >Mohi</a> */}
         <Link
           to="/"
-          className="btn btn-ghost text-2xl text-[#0be890] font-sans font-bold "
+          className="btn btn-ghost text-2xl text-[#0be890] font-Playwrite font-bold "
         >
-          Mohi
+          Mohi <span></span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

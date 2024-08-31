@@ -1,5 +1,7 @@
 // import { useEffect, useState } from "react";
 
+import { FaGithub } from "react-icons/fa6";
+
 const ProjectsCard = ({ project }) => {
   
   // const [Loading, setLoading] = useState(true);
@@ -39,12 +41,14 @@ const ProjectsCard = ({ project }) => {
       <div className="card-body">
         <h2 className="card-title">{project.title}</h2>
 
-        <div className="card-actions flex">
-          {/* <a href={project?.clintLink} className="btn   text-black bg-[#0be890]  hover:bg-white hover:text-black">github for clint </a>
-            <a href={project?.ServerLink} className="btn   text-black bg-[#0be890]  hover:bg-white hover:text-black">github for server </a> */}
+        <div className="card-actions flex justify-around">
+          <a href={project?.clintLink} className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> clint </a>
+            {
+              project?.ServerLink?<a href={project?.ServerLink} className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> server </a>:""
+            }
           <a
             href={project.liveLink}
-            className="btn  w-full text-black bg-[#0be890]  hover:bg-white hover:text-black"
+            className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"
           >
             live links
           </a>

@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      // fontFamily:{
-      //    "Playwrite":["Playwrite IS","cursive"],
+      fontFamily:{
+         "Playwrite":["Playwrite IS","cursive"],
        
-      // }
+      }
     },
   },
   plugins: [
