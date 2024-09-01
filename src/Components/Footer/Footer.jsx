@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <footer className="footer  items-center text-center ">
-        <div className="w-4/5 mx-auto flex justify-center py-10">
+        <div className="w-4/5 m-auto flex justify-start py-10 md:justify-center">
           <div
             className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="linkedin"
@@ -22,17 +22,9 @@ const Footer = () => {
               <FaLinkedin />
             </a>
           </div>
-          <div
-            className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
-            data-tip="github"
-          >
-            <a href="https://github.com/MDmohiuddin-web">
-              <FaGithub />
-            </a>
-          </div>
 
           <div
-            className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
+            className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300  translate-x-5 ease-out "
             data-tip="facebook"
           >
             <a href="https://www.facebook.com/mdmohiuddin.hafiz?mibextid=JRoKGi">
@@ -83,7 +75,7 @@ const Footer = () => {
         </div>
       </footer>
       
-      <div className="w-4/5 mx-auto text-center mb-5 capitalize font-Playwrite">
+      <div className="md:w-4/5 mx-auto text-center mb-5 capitalize font-Playwrite">
         <p> © 2024 - All right reserved by Mohi uddin</p>
       </div>
     </>
