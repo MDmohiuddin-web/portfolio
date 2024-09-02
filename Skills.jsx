@@ -43,85 +43,85 @@ const Skills = () => {
         data-aos="fade-up"
       >
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="HTML"
         >
           <FaHtml5 />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="CSS"
         >
           <FaCss3Alt />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Tailwind CSS"
         >
           <RiTailwindCssFill />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="bootstrap"
         >
           <RiBootstrapLine />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="javascript"
         >
           <IoLogoJavascript />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="mongodb"
         >
           <DiMongodb />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Express.js"
         >
           <SiExpress />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="react.js"
         >
           <FaReact />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="node.js"
         >
           <FaNodeJs />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Firebase"
         >
           <IoLogoFirebase />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Github"
         >
           <FaGithub />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Netlify"
         >
           <BiLogoNetlify />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Figma"
         >
           <FaFigma />
         </div>
         <div
-          className=" text-[80px] hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
+          className=" text-[80px] text-center hover:text-[#0be890] hover:scale-105 duration-300 tooltip translate-x-5 ease-out "
           data-tip="Vercel"
         >
           <SiVercel />

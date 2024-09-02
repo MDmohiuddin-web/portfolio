@@ -1,5 +1,6 @@
 // import { useEffect, useState } from "react";
 
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
 const ProjectsCard = ({ project }) => {
@@ -41,15 +42,19 @@ const ProjectsCard = ({ project }) => {
       <div className="card-body">
         <h2 className="card-title">{project.title}</h2>
 
-        <div className="card-actions flex justify-around">
-          <a href={project?.clintLink} className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> clint </a>
+        <div className="card-actions flex justify-around flex-wrap gap-5 ">
+          <a href={project?.clintLink} className="btn p-2 flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> clint </a>
             {
-              project?.ServerLink?<a href={project?.ServerLink} className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> server </a>:""
+              project?.ServerLink?<a href={project?.ServerLink} className="btn p-2 flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"><FaGithub></FaGithub> server </a>:""
             }
-          <a
+          
+        </div>
+        <div className="w-full flex justify-center items-center">
+        <a
             href={project.liveLink}
-            className="btn flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"
+            className="btn p-2 flex-1  text-black bg-[#0be890]  hover:bg-white hover:text-black"
           >
+            <FaExternalLinkAlt />
             live links
           </a>
         </div>
