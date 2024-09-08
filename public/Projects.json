@@ -15,6 +15,15 @@
             "clintLink":"https://github.com/MDmohiuddin-web/car-doctor-clint",
             "ServerLink":"https://github.com/MDmohiuddin-web/car-doctor-server"
         },
+        {
+            "id": 88,
+            "title": "Furniture",
+            "image": "https://thumbs4.imagebam.com/98/7a/de/MEVR8FG_t.jpg",
+            "liveLink": "https://furniflexe.netlify.app/",
+            "clintLink":"https://github.com/MDmohiuddin-web/FurniFlex-clint",
+            "ServerLink":"https://github.com/MDmohiuddin-web/FurniFlex-server"
+        },
+        
         
         {
             "id": 2,

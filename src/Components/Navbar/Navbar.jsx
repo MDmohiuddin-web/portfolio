@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import cv from "../assets/Mohiuddin_cv.pdf";
+import cv from "../assets/MohiUddin-Resume.pdf";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {

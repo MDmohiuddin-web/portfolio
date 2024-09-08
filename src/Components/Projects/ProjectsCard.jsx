@@ -29,7 +29,7 @@ const ProjectsCard = ({ project }) => {
 
   return (
     <div
-      className="card card-compact w-[350px]  bg-base-100 shadow-xl "
+      className="card card-compact w-[350px]  bg-base-100 shadow-xl border border-gray-400"
       data-aos="fade-up"
     >
       <figure>
