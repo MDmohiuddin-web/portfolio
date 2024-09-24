@@ -15,6 +15,18 @@
             "clintLink":"https://github.com/MDmohiuddin-web/car-doctor-clint",
             "ServerLink":"https://github.com/MDmohiuddin-web/car-doctor-server"
         },
+        
+        
+        {
+            "id": 94,
+            "title": "fashionfusing",
+            "image": "https://thumbs4.imagebam.com/c9/b5/d6/MEW54NH_t.png",
+           
+            "clintLink":"https://github.com/MDmohiuddin-web/FashionFusing-Clint",
+            
+            
+            "liveLink": "https://fashionfusing.netlify.app/"
+        },
         {
             "id": 88,
             "title": "Furniture",
@@ -46,6 +58,7 @@
             
             "liveLink": "https://traveling-p.netlify.app/"
         },
+       
         
         {
             "id": 4,
