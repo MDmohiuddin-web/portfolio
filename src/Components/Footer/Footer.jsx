@@ -6,7 +6,7 @@ import {
   FaSquareXTwitter,
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { TbBrandFiverr } from "react-icons/tb";
+// import { TbBrandFiverr } from "react-icons/tb";
 // import { MdEmail } from "react-icons/md";
 
 const Footer = () => {

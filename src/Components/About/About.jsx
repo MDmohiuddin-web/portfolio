@@ -49,9 +49,9 @@ const About = () => {
       {/* for img */}
       <div className="md:w-[49%] ">
         <motion.img
-          initial={{ x: 100, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          variants={SlideUp(0.8)}
+          initial="initial"
+          whileInView="animate"
           src={mohi_img}
           alt=""
         />

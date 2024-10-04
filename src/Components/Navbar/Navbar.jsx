@@ -80,7 +80,7 @@ const Navbar = () => {
         {/* <a >Mohi</a> */}
         <Link
           to="/"
-          className="btn btn-ghost text-2xl text-[#0be890] font-Playwrite font-bold "
+          className="btn btn-ghost md:text-2xl text-[#0be890] font-Playwrite font-bold "
         >
          {`< Mohi />`}
         </Link>

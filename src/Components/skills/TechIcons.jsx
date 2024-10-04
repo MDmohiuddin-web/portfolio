@@ -60,9 +60,13 @@ const TechIcons = () => {
     <>
       <div className="w-full text-center">
         <motion.h2
-            variants={SlideUp(0.2)}
-            initial="initial"
-            whileInView="animate" className="text-4xl md:text-6xl my-3 text-[#0be890]">My skills</motion.h2>
+          variants={SlideUp(0.2)}
+          initial="initial"
+          whileInView="animate"
+          className="text-4xl md:text-6xl my-3 text-[#0be890]"
+        >
+          My skills
+        </motion.h2>
         <br />
       </div>
       <motion.div

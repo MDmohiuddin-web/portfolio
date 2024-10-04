@@ -6,27 +6,25 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className=" flex flex-col  md:w-1/2 m-auto md:h-[650px] items-left justify-center">
-      <motion.h1
+      <h1
         variants={SlideUp(0.2)}
         initial="initial"
         animate="animate"
         className="text-4xl  my-3 font-bold text-left  "
       >
         {`Hello there, I'm`}
-      </motion.h1>
-      <motion.h2
-        variants={SlideUp(0.4)}
-        initial="initial"
-        animate="animate"
+      </h1>
+      <h2
+        
         className="text-4xl md:text-6xl my-3   "
       >
         mohi uddin <span className="text-[#0be890] ">.</span>
-      </motion.h2>
+      </h2>
       <motion.h2
         variants={SlideUp(0.6)}
         initial="initial"
         animate="animate"
-        className="text-3xl text-left font-bold md:my-3 "
+        className="md:text-3xl text-left font-bold md:my-3 "
       >
         {`I'm a `} <br />
         <span className="text-[#0be890] ">
@@ -34,7 +32,7 @@ const Hero = () => {
             words={[
               "frontend developer",
               "MERN stack developer",
-              "jr.fullstack developer",
+              "fullstack developer",
             ]}
             loop={100}
             cursor
