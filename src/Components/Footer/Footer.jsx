@@ -62,14 +62,14 @@ const Footer = () => {
           </div>
 
           
-          <div
+          {/* <div
             className="text-4xl  tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="fiverr"
           >
             <a href="https://www.fiverr.com/moin218/create-responsive-and-dynamic-websites-using-react-and-mern-stack-8c40">
             <TbBrandFiverr />
             </a>
-          </div>
+          </div> */}
 
           <div
             className="text-4xl  tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out pr-8 md:pr-0"

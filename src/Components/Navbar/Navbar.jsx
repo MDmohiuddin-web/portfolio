@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import cv from "../assets/MohiUddin-Resume.pdf";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [theme, setTheme] = useState("forest");
@@ -43,7 +44,11 @@ const Navbar = () => {
       </li>
     </>
   );
-  return (
+  return (<motion.div
+    initial={{ y: -100 }}
+    animate={{ y: 0 }}
+    transition={{ duration: 0.5 }}
+  >
     <div className="navbar bg-base-100 my-5 md:w-[90%] mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
@@ -77,7 +82,7 @@ const Navbar = () => {
           to="/"
           className="btn btn-ghost text-2xl text-[#0be890] font-Playwrite font-bold "
         >
-          Mohi 
+         {`< Mohi />`}
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -133,7 +138,7 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-    </div>
+    </div></motion.div>
   );
 };
 

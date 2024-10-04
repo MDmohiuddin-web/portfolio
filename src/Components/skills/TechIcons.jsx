@@ -15,7 +15,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { DiMongodb } from "react-icons/di";
 import { SiExpress, SiVercel } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
-import { IoLogoFirebase } from "react-icons/io5";
+import { IoLogoFirebase, IoShieldSharp } from "react-icons/io5";
 
 const TechIcons = () => (
   <div
@@ -39,6 +39,7 @@ const TechIcons = () => (
       { icon: <FaNodeJs />, tip: "Node.js" },
       { icon: <RiNextjsLine />, tip: "Next.js" },
       { icon: <IoLogoFirebase />, tip: "Firebase" },
+      { icon: <IoShieldSharp />, tip: "next-auth" },
       { icon: <FaGithub />, tip: "GitHub" },
       { icon: <BiLogoNetlify />, tip: "Netlify" },
       { icon: <FaFigma />, tip: "Figma" },

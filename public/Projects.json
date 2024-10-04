@@ -1,6 +1,8 @@
  [
         {
-            "id": 0,
+            "delay": 0.2,"id": 1,
+            
+            "framework": "React",
             "title": "sky-lounge-restaurant",
             "image": "https://thumbs4.imagebam.com/53/4a/99/MEVKL2R_t.png",
             "liveLink": "https://sky-lounge-restaurant.netlify.app",
@@ -8,7 +10,8 @@
             "ServerLink":"https://github.com/MDmohiuddin-web/SKY-LOUNGE-RESTAURANT-server"
         },
         {
-            "id": 1,
+            "delay": 0.4,"id": 2,
+            "framework": "React",
             "title": "Car Doctor",
             "image": "https://thumbs4.imagebam.com/8f/e7/23/MEU4TF4_t.png",
             "liveLink": "https://car-doctor-f2b63.web.app",
@@ -18,9 +21,10 @@
         
         
         {
-            "id": 94,
+            "delay": 0.6,"id": 3,
+            "framework": "React",
             "title": "fashionfusing",
-            "image": "https://thumbs4.imagebam.com/c9/b5/d6/MEW54NH_t.png",
+            "image": "https://thumbs4.imagebam.com/24/ca/7d/MEW5500_t.png",
            
             "clintLink":"https://github.com/MDmohiuddin-web/FashionFusing-Clint",
             
@@ -28,8 +32,27 @@
             "liveLink": "https://fashionfusing.netlify.app/"
         },
         {
-            "id": 88,
+            "delay": 0.8,"id": 4,
+            "framework": "next.js",
+            "title": "coffee shop",
+            "image": "https://thumbs4.imagebam.com/89/d4/21/MEWDBUU_t.png",
+            "liveLink": "https://coffee-shop-ten-beta.vercel.app/",
+            "clintLink":"https://github.com/MDmohiuddin-web/coffee-shop"
+           
+        },
+        {
+            "delay": 1.0,"id": 5,
+            "framework": "next.js",
+            "title": "Blogs-For-Developer",
+            "image": "https://thumbs4.imagebam.com/86/82/f8/MEWDBW9_t.png",
+            "liveLink": "https://blogs-for-developer.vercel.app/",
+            "clintLink":"https://github.com/MDmohiuddin-web/Blogs-For-Developer"
+           
+        },
+        {
+            "delay": 1.2,"id": 6,
             "title": "Furniture",
+            "framework": "React",
             "image": "https://thumbs4.imagebam.com/98/7a/de/MEVR8FG_t.jpg",
             "liveLink": "https://furniflexe.netlify.app/",
             "clintLink":"https://github.com/MDmohiuddin-web/FurniFlex-clint",
@@ -38,7 +61,8 @@
         
         
         {
-            "id": 2,
+            "delay": 0.3,"id": 7,
+            "framework": "React",
             "title": "Family Homes",
             "image": "https://thumbs4.imagebam.com/21/28/9c/MEU4TFO_t.png",
            
@@ -49,7 +73,8 @@
         },
         
         {
-            "id": 3,
+            "delay": 0.2,"id": 8,
+            "framework": "html&tailwindcss",
             "title": "Travels",
             "image": "https://thumbs4.imagebam.com/f7/3d/d7/MEU4TIW_t.png",
            
@@ -61,8 +86,9 @@
        
         
         {
-            "id": 4,
+            "delay": 0.2,"id": 9,
             "title": "Hoking",
+            "framework": "html&tailwindcss",
             "image": "https://thumbs4.imagebam.com/0f/77/b8/MEU4TGO_t.png",
            
             "clintLink":"https://github.com/MDmohiuddin-web/as-3",
@@ -72,8 +98,9 @@
         },
         
         {
-            "id": 5,
+            "delay": 0.4,"id": 10,
             "title": "legal-solutions",
+            "framework": "html &css",
             "image": "https://thumbs4.imagebam.com/61/a8/34/MEVKUXX_t.png",
            
             "clintLink":"https://github.com/MDmohiuddin-web/legal-solutions",
@@ -82,7 +109,8 @@
         },
         
         {
-            "id": 6,
+            "delay": 0.6,"id": 11,
+            "framework": "html&tailwindcss",
             "title": "Online Cloth Shaping",
             "image": "https://thumbs4.imagebam.com/f9/24/f3/MEU4TG3_t.png",
            
@@ -93,10 +121,11 @@
         },
         
         {
-            "id": 7,
+            "delay": 0.8,"id": 12,
             
 
             "title": "Twirl and Tastes",
+            "framework": "React",
             "image": "https://thumbs4.imagebam.com/8c/02/a4/MEU4TGI_t.png",
            
             "clintLink":"https://github.com/MDmohiuddin-web/as-7",
@@ -107,12 +136,12 @@
         },
         
         {
-            "id": 8,
+            "delay": 1.0,"id": 13,
             "title": "e-bus-tickets",
+            "framework": "html&tailwindcss,js",
             "image": "https://thumbs4.imagebam.com/7e/a4/35/MEVKUY4_t.png",
              "clintLink":"https://github.com/MDmohiuddin-web/as-5",
             "liveLink": "https://e-bus-tickets.netlify.app"
-        }
-        
+        }        
         
     ]

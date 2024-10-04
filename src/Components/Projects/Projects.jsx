@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectsCard from "./ProjectsCard";
+import { SlideUp } from "../animation/animation";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   const [item, setItem] = useState([]);
@@ -17,9 +19,22 @@ const Projects = () => {
   return (
     <div>
       <div className="w-4/5 mx-auto text-center">
-        <h2 className="text-4xl md:text-6xl my-3 text-[#0be890] ">
+        <motion.h2
+        variants={SlideUp(0.2)}
+        initial="initial"
+        whileInView={"animate"}
+        
+        className="text-4xl md:text-6xl my-3 text-[#0be890] ">
           My Projects
-        </h2>
+        </motion.h2>
+        <motion.p
+            variants={SlideUp(0.4)}
+            initial="initial"
+            whileInView={"animate"}
+            className=" text-sm py-3"
+          >
+            there is my some projects example
+          </motion.p>
       </div>
 
       <div className="my-10 flex flex-wrap gap-5 justify-between font-roboto">

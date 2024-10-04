@@ -9,10 +9,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home/Home.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
-import About from "./Components/About/About.jsx";
+
 import Projects from "./Components/Projects/Projects.jsx";
 import Skills from "./Components/skills/Skills.jsx";
 import Root from "./Components/ROOT/Root.jsx";
+import About from "./Components/About/About.jsx";
 
 const router = createBrowserRouter([
   {
