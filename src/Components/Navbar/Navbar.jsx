@@ -1,17 +1,17 @@
 import { Link, NavLink } from "react-router-dom";
-import cv from "../assets/MohiUddin-Resume.pdf";
+import cv from "../assets/Mohammed-Mohi-Uddin-Resume.pdf.pdf";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState("forest");
+  const [theme, setTheme] = useState("sunset");
 
   // update state on toggle
   const handleToggle = (e) => {
     if (e.target.checked) {
       setTheme("light");
     } else {
-      setTheme("forest");
+      setTheme("sunset");
     }
   };
 
