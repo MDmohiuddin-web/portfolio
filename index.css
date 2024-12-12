@@ -11,4 +11,12 @@
 .fil{
     backdrop-filter: drop-shadow(10px 10px 10px #000000);
 }
+/* styles.css or your main CSS file */
+
+body {
+    transition: background-color 1s ease, color 1s ease;
+  }
+  
+  /* Add transitions for other elements if needed */
+  
 

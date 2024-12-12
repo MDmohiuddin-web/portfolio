@@ -13,7 +13,7 @@ import {
 } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiMongodb } from "react-icons/di";
-import { SiExpress, SiVercel } from "react-icons/si";
+import { SiExpress, SiMongoose, SiTypescript, SiVercel } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 import { IoLogoFirebase, IoShieldSharp } from "react-icons/io5";
 import { motion, useAnimation } from "framer-motion";
@@ -83,7 +83,9 @@ const TechIcons = () => {
           { icon: <RiTailwindCssFill />, tip: "Tailwind CSS" },
           { icon: <RiBootstrapLine />, tip: "Bootstrap" },
           { icon: <IoLogoJavascript />, tip: "JavaScript" },
+          { icon: <SiTypescript />, tip: "Typescript" },
           { icon: <DiMongodb />, tip: "MongoDB" },
+          { icon: <SiMongoose />, tip: "Mongoose" },
           { icon: <SiExpress />, tip: "Express.js" },
           { icon: <FaReact />, tip: "React.js" },
           { icon: <FaNodeJs />, tip: "Node.js" },

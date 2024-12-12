@@ -39,7 +39,7 @@ const Projects = () => {
 
       <div className="my-10 flex flex-wrap gap-5 justify-between font-roboto">
         {item.slice(0, DataLength).map((project) => (
-          <ProjectsCard key={project.id} project={project} />
+          <ProjectsCard key={project?.id} project={project} />
         ))}
       </div>
       {/*  */}
