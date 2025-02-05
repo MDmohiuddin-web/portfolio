@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
-import { SlideUp } from "../animation/animation";
+import { SlideUp } from "../../animation/animation";
 import { motion } from "framer-motion";
 
 const Hero = () => {

@@ -9,11 +9,14 @@ import Skills from "../skills/Skills";
 const Home = () => {
   return (
     <div>
-      <Hero></Hero>
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <Contact></Contact>
+      
+     
+
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
 
       <ScrollToTop
         smooth
@@ -30,3 +33,4 @@ const Home = () => {
 };
 
 export default Home;
+

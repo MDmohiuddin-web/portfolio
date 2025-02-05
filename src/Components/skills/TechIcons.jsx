@@ -19,7 +19,7 @@ import { IoLogoFirebase, IoShieldSharp } from "react-icons/io5";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { SlideUp } from "../animation/animation";
+import { SlideUp } from "../../animation/animation";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },

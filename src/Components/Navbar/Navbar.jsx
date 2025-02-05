@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState("sunset");
+  const [theme, setTheme] = useState("black");
 
   // update state on toggle
   const handleToggle = (e) => {
     if (e.target.checked) {
       setTheme("light");
     } else {
-      setTheme("sunset");
+      setTheme("black");
     }
   };
 

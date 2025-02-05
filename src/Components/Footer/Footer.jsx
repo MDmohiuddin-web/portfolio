@@ -18,7 +18,7 @@ const Footer = () => {
             className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="linkedin"
           >
-            <a href="https://www.linkedin.com/in/mohammedmohiuddin/">
+            <a href="https://www.linkedin.com/in/mohammedmohiuddin/" target="_blank">
               <FaLinkedin />
             </a>
           </div>
@@ -26,7 +26,7 @@ const Footer = () => {
             className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="github"
           >
-            <a href="https://github.com/MDmohiuddin-web">
+            <a href="https://github.com/MDmohiuddin-web" target="_blank">
               <FaGithub />
             </a>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300  translate-x-5 ease-out "
             data-tip="facebook"
           >
-            <a href="https://www.facebook.com/mdmohiuddin.hafiz?mibextid=JRoKGi">
+            <a href="https://www.facebook.com/mdmohiuddin.hafiz?mibextid=JRoKGi" target="_blank">
               <FaSquareFacebook />
             </a>
           </div>
@@ -43,7 +43,7 @@ const Footer = () => {
             className="text-4xl tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="whatsapp"
           >
-            <a href="tel:+8801865540885">
+            <a href="https://wa.me/+8801865540885" target="_blank">
               <FaSquareWhatsapp />
             </a>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           >
             <p>
               
-              <a href="mailto:mohiu5204@gmail.com">
+              <a href="mailto:mohiu5204@gmail.com" target="_blank">
                 
                 <MdEmail />
               </a>
@@ -66,7 +66,7 @@ const Footer = () => {
             className="text-4xl  tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out "
             data-tip="fiverr"
           >
-            <a href="https://www.fiverr.com/moin218/create-responsive-and-dynamic-websites-using-react-and-mern-stack-8c40">
+            <a href="https://www.fiverr.com/moin218/create-responsive-and-dynamic-websites-using-react-and-mern-stack-8c40" target="_blank">
             <TbBrandFiverr />
             </a>
           </div> */}
@@ -75,7 +75,7 @@ const Footer = () => {
             className="text-4xl  tooltip hover:text-[#0be890] hover:scale-105 duration-300 translate-x-5 ease-out pr-8 md:pr-0"
             data-tip="x"
           >
-            <a href="https://x.com/MohiUddin_2000">
+            <a href="https://x.com/MohiUddin_2000" target="_blank">
               <FaSquareXTwitter />
             </a>
           </div>
@@ -91,3 +91,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
-import { SlideUp } from '../animation/animation';
+import { SlideUp } from "../../animation/animation";
 import { IoIosInformationCircle } from 'react-icons/io';
 
 const ProjectsCard = ({ project }) => {
@@ -90,3 +90,4 @@ const ProjectsCard = ({ project }) => {
 };
 
 export default ProjectsCard;
+

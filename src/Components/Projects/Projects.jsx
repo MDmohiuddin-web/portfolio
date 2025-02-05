@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectsCard from "./ProjectsCard";
-import { SlideUp } from "../animation/animation";
+import { SlideUp } from "../../animation/animation";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -51,7 +51,7 @@ const Projects = () => {
       >
         <button
           onClick={() => setDataLength(item.length)}
-          className="btn   text-black bg-[#0be890]  hover:bg-white hover:text-black"
+          className="btn   text-black bg-[#0be890]  hover:bg-white hover:text-black "
         >
           Show all data
         </button>

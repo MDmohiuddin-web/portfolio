@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import Loader from "../Loader/Loader";
+import SplashCursor from "../../animation/SplashCursor";
 
 const Root = () => {
   const [Loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ const Root = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
+      <SplashCursor></SplashCursor>
     </div>
   );
 };

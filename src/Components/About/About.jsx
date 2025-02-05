@@ -1,7 +1,7 @@
 import mohi_img from "../assets/a (3).png";
 import mern_img from "../assets/mern.png";
 import { motion } from "framer-motion";
-import { SlideUp } from "../animation/animation";
+import { SlideUp } from "../../animation/animation";
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import TechIcons from "./TechIcons";
 import { motion } from "framer-motion";
-import { SlideUp } from "../animation/animation";
+import { SlideUp } from "../../animation/animation";
 
 const Skills = () => {
   return (
