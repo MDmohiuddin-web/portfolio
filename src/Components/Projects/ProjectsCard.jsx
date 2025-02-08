@@ -61,14 +61,14 @@ const ProjectsCard = ({ project }) => {
         </div>
 
         <div className="card-actions flex justify-around flex-wrap gap-5">
-          <a
+          <a target="_blank" 
             href={project?.clintLink}
             className="btn p-2 flex-1 text-black bg-[#0be890] hover:bg-white hover:text-black"
           >
             <FaGithub /> clint
           </a>
           {project?.ServerLink && (
-            <a
+            <a target="_blank" 
               href={project?.ServerLink}
               className="btn p-2 flex-1 text-black bg-[#0be890] hover:bg-white hover:text-black"
             >
@@ -77,7 +77,7 @@ const ProjectsCard = ({ project }) => {
           )}
         </div>
         <div className="w-full flex justify-center items-center">
-          <a
+          <a target="_blank" 
             href={project?.liveLink}
             className="btn p-2 flex-1 text-black bg-[#0be890] hover:bg-white hover:text-black"
           >
