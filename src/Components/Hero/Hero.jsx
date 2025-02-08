@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import { SlideUp } from "../../animation/animation";
 import { motion } from "framer-motion";
+import { SiGooglemeet } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         {`Hello there, I'm`}
       </h1>
       <h2
-        
+
         className="text-4xl md:text-6xl my-3   "
       >
         mohi uddin <span className="text-[#0be890] ">.</span>
@@ -57,12 +58,21 @@ const Hero = () => {
         immersive journeys that leave a lasting impression.
       </motion.p>
       <motion.div variants={SlideUp(1)} initial="initial" animate="animate">
-        <Link
+        {/* <Link
           to="/contact"
           className="btn w-[150px]  text-black bg-[#0be890]  hover:bg-white hover:text-black"
         >
           contact me
-        </Link>
+        </Link> */}
+
+        {/* free-consultation */}
+        <a
+          href="https://calendly.com/mohiu5204/free-consultation" target="_blank"
+          className="btn w-44 text-black bg-[#0be890]  hover:bg-white hover:text-black flex items-center justify-center"
+        >
+          <SiGooglemeet />
+          free consultation
+        </a>
       </motion.div>
     </div>
   );

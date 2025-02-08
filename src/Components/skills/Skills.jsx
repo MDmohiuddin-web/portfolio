@@ -1,8 +1,12 @@
 import TechIcons from "./TechIcons";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animation";
+import SplitText from "../../animation/SplitText";
 
 const Skills = () => {
+  const handleAnimationComplete = () => {
+    //console.log('All letters have animated!');
+  };
   return (
     <div className="flex flex-wrap gap-5 justify-between my-10 md:min-h-[500px] ">
       {/* texts */}
@@ -10,14 +14,20 @@ const Skills = () => {
       <TechIcons></TechIcons>
       <div className="w-full flex flex-wrap justify-between mt-10">
         <div>
-          <motion.h2
-            variants={SlideUp(0.2)}
-            initial="initial"
-            whileInView="animate"
+          
+          <SplitText
+            text="My Soft Skills"
             className="text-4xl md:text-6xl my-3 text-[#0be890]"
-          >
-            My Soft Skills
-          </motion.h2>
+            delay={150}
+            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+            easing="easeOutCubic"
+            threshold={0.2}
+            rootMargin="-50px"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />
+
+
           <motion.ul
             variants={SlideUp(0.4)}
             initial="initial"
@@ -52,14 +62,20 @@ const Skills = () => {
         </div>
         {/*  */}
         <div>
-          <motion.h2
-            variants={SlideUp(0.2)}
-            initial="initial"
-            whileInView="animate"
+
+         
+
+          <SplitText
+            text="My Expertise"
             className="text-4xl md:text-6xl my-3 text-[#0be890]"
-          >
-            My Expertise
-          </motion.h2>
+            delay={150}
+            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+            easing="easeOutCubic"
+            threshold={0.2}
+            rootMargin="-50px"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />
           <motion.ul
             variants={SlideUp(0.4)}
             initial="initial"

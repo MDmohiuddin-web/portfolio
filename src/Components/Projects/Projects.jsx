@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectsCard from "./ProjectsCard";
 import { SlideUp } from "../../animation/animation";
 import { motion } from "framer-motion";
+import SplitText from "../../animation/SplitText";
 
 const Projects = () => {
   const [item, setItem] = useState([]);
@@ -16,17 +17,28 @@ const Projects = () => {
       });
   }, []);
 
+  const handleAnimationComplete = () => {
+    // console.log('All letters have animated!');
+  };
+
   return (
     <div>
       <div className="w-4/5 mx-auto text-center">
-        <motion.h2
-        variants={SlideUp(0.2)}
-        initial="initial"
-        whileInView={"animate"}
+
         
-        className="text-4xl md:text-6xl my-3 text-[#0be890] ">
-          My Projects
-        </motion.h2>
+        <SplitText
+            text="My Projects"
+            className="text-4xl md:text-6xl my-3 text-[#0be890]"
+            delay={150}
+            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+            easing="easeOutCubic"
+            threshold={0.2}
+            rootMargin="-50px"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />
+
+
         <motion.p
             variants={SlideUp(0.4)}
             initial="initial"

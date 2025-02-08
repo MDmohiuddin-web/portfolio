@@ -19,7 +19,7 @@ const Home = () => {
       <Contact />
 
       <ScrollToTop
-        smooth
+        smooth 
         style={{
           padding: "6px",
           background: "#0be890",

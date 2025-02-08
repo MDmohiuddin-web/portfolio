@@ -153,6 +153,16 @@
     "clintLink": "https://github.com/MDmohiuddin-web/FurniFlex-clint",
     "ServerLink": "https://github.com/MDmohiuddin-web/FurniFlex-server"
   },
+  {
+    "delay": 1.4,
+    "id": 6,
+    "title": "interior-desigin",
+    "framework": "React",
+    "image": "https://res.cloudinary.com/dcjcdkgzy/image/upload/v1738999268/uon3pabx3espbquli1cu.png",
+    "liveLink": "https://interior-desigin.netlify.app/",
+    "clintLink": "https://github.com/MDmohiuddin-web/Interior-design-landingpage"
+    
+  },
 
   {
     "delay": 0.3,
@@ -214,21 +224,10 @@
     "liveLink": "https://shoping-cloths.netlify.app/"
   },
 
+  
+
   {
     "delay": 0.8,
-    "id": 12,
-
-    "title": "Twirl and Tastes",
-    "framework": "React",
-    "image": "https://thumbs4.imagebam.com/8c/02/a4/MEU4TGI_t.png",
-
-    "clintLink": "https://github.com/MDmohiuddin-web/as-7",
-
-    "liveLink": "https://twirl-and-tastes.netlify.app/"
-  },
-
-  {
-    "delay": 1.0,
     "id": 13,
     "title": "e-bus-tickets",
     "framework": "html&tailwindcss,js",

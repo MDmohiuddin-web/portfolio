@@ -19,7 +19,8 @@ import { IoLogoFirebase, IoShieldSharp } from "react-icons/io5";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { SlideUp } from "../../animation/animation";
+import SplitText from "../../animation/SplitText";
+
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -56,17 +57,28 @@ const TechIcons = () => {
     }
   }, [controls, inView]);
 
+  const handleAnimationComplete = () => {
+    //console.log('All letters have animated!');
+  };
+
   return (
     <>
       <div className="w-full text-center">
-        <motion.h2
-          variants={SlideUp(0.2)}
-          initial="initial"
-          whileInView="animate"
-          className="text-4xl md:text-6xl my-3 text-[#0be890]"
-        >
-          My skills
-        </motion.h2>
+
+        
+        <SplitText
+            text="My skills"
+            className="text-4xl md:text-6xl my-3 text-[#0be890]"
+            delay={150}
+            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+            easing="easeOutCubic"
+            threshold={0.2}
+            rootMargin="-50px"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />
+
+
         <br />
       </div>
       <motion.div
