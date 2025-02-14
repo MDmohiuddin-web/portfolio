@@ -65,7 +65,7 @@ const ProjectsCard = ({ project }) => {
             href={project?.clintLink}
             className="btn p-2 flex-1 text-black bg-[#0be890] hover:bg-white hover:text-black"
           >
-            <FaGithub /> clint
+            <FaGithub /> client
           </a>
           {project?.ServerLink && (
             <a target="_blank" 
