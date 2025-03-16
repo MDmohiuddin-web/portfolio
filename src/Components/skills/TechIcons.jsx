@@ -87,7 +87,7 @@ const TechIcons = () => {
         initial="hidden"
         animate={controls}
         className="flex flex-wrap gap-8 md:w-4/5 justify-center m-auto pr-10"
-        data-aos="fade-up"
+        
       >
         {[
           { icon: <FaHtml5 />, tip: "HTML" },
