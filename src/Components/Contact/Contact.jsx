@@ -7,7 +7,7 @@ const Contact = () => {
     };
     return (
         <div className="flex flex-wrap  " >
-            <div data-aos="fade-up" className=" md:w-[49%] flex flex-wrap md:pr-10">
+            <div  className=" md:w-[49%] flex flex-wrap md:pr-10">
 
 
                 <SplitText
@@ -26,7 +26,7 @@ const Contact = () => {
                 <p>As a dedicated Web Developer, I collaborate closely with my clients on every project. My goal is not only to deliver exceptional work that drives business growth but also to establish long-term relationships built on trust and genuine care. Let’s create something remarkable together!</p>
             </div>
             {/*  */}
-            <div data-aos="fade-up" className=" md:w-[49%]  text-left ">
+            <div  className=" md:w-[49%]  text-left ">
                 <SplitText
                     text="My Address"
                     className="text-4xl md:text-6xl my-3 text-[#0be890]"

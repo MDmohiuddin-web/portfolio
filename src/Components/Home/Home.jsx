@@ -21,6 +21,8 @@ const Home = () => {
       <ScrollToTop
         smooth 
         style={{
+          
+          bottom: "110px",
           padding: "6px",
           background: "#0be890",
           color: "black",

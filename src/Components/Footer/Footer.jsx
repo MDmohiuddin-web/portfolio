@@ -84,7 +84,7 @@ const Footer = () => {
       </footer>
       
       <div className="md:w-4/5 mx-auto text-center mb-5 capitalize font-Playwrite">
-        <p> © 2024 - All right reserved by Mohi uddin</p>
+        <p> © 2023 - All right reserved by Mohi uddin</p>
       </div>
     </>
   );

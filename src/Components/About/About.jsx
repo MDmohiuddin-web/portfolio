@@ -32,7 +32,7 @@ const About = () => {
             whileInView="animate"
             className="my-5  font-roboto"
           >
-            {`Hello, I’m Mohi Uddin, a passionate and experienced Web Developer. With a strong background in HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Express, MongoDB, Firebase, and WordPress, I specialize in crafting high-quality, responsive web pages. My mission is to understand my clients’ needs and guide them through the process of building their dream websites. Let’s collaborate and create something exceptional! `}
+            {`Hello, I’m Mohi Uddin, a passionate and experienced Web Developer. With a strong background in HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Express, MongoDB, Firebase, and Next.js, I specialize in crafting high-quality, responsive web pages. My mission is to understand my clients’ needs and guide them through the process of building their dream websites. Let’s collaborate and create something exceptional! `}
           </motion.p>
         </div>
         {/* 2 */}
