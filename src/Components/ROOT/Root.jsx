@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import Loader from "../Loader/Loader";
 import SplashCursor from "../../animation/SplashCursor";
+import Whatsapp from "../../utils/Whatsapp";
 
 const Root = () => {
   const [Loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const Root = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
+      <Whatsapp></Whatsapp>
       <SplashCursor></SplashCursor>
     </div>
   );
